@@ -23,10 +23,10 @@ const handpickedImgs = [
 
 export default function InstagramInfo() {
   return (
-    <div className="cursor-default">
+    <div className="cursor-default py-8">
       <h3 className="text-primaryContent text-lg md:text-xl pb-2 md:pb-4">
         Theo dõi chúng tôi tại{' '}
-        <span className="font-semibold text-gray-900 cursor-pointer md:pb-1 md:border-b md:border-b-primaryContent">
+        <span className="font-semibold text-gray-900 cursor-pointer">
           @ĐN^3S
         </span>
       </h3>

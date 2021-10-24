@@ -1,4 +1,4 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
   mode: 'jit',
@@ -6,16 +6,16 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      'sans': ['lexend', ...defaultTheme.fontFamily.sans],
+      sans: ['lexend', ...defaultTheme.fontFamily.sans],
     },
     extend: {
       colors: {
-        'primaryContent': 'rgba(51, 51, 51, 1)',
-      }
+        primaryContent: 'rgba(51, 51, 51, 1)',
+      },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
-}
+  plugins: [require('@tailwindcss/aspect-ratio')],
+};
