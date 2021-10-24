@@ -1,6 +1,6 @@
 const callouts = [
   {
-    description: 'Sản phẩm cho',
+    description: 'Nón dành cho',
     name: 'Nam',
     imageSrc:
       'https://images.pexels.com/photos/6353658/pexels-photo-6353658.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
@@ -9,7 +9,7 @@ const callouts = [
     href: '#',
   },
   {
-    description: 'Sản phẩm cho',
+    description: 'Nón dành cho',
     name: 'Nữ',
     imageSrc:
       'https://images.pexels.com/photos/7765972/pexels-photo-7765972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
@@ -18,7 +18,7 @@ const callouts = [
     href: '#',
   },
   {
-    description: 'Sản phẩm cho',
+    description: 'Nón dành cho',
     name: 'Bé',
     imageSrc:
       'https://images.pexels.com/photos/5560485/pexels-photo-5560485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',

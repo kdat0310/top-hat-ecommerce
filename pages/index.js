@@ -2,9 +2,7 @@ import Head from 'next/head';
 import Categories from './components/categories';
 import Hero from './components/hero';
 import InstagramInfo from './components/instagramInfo';
-import ProductPreviewContainer, {
-  ProductPreview,
-} from './components/productPreviewContainer';
+import ProductPreviewContainer from './components/productPreviewContainer';
 
 export default function Home() {
   return (
